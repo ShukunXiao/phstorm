@@ -1,0 +1,188 @@
+/*
+Theme Name: Fitmeal Dietitian
+Theme URI: https://www.ovationthemes.com/wordpress/free-fitmeal-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Fitmeal Dietitian is an outstanding theme that can be used to create a website for Fit Meal, Healthy Food, fitness meal, organic food, Nutrition Health, diet planners, Holistic nutritionist, calories, Dietitians, nutritionist diet, health center, Sport & Weight Loss Programs, health diet, natural food, etc. The theme is perfect to create a catchy website for your business. Fitmeal Dietitian has many features like elegant design, Cleanly coded, Retina ready, user-friendly ( easily customizable), responsive, social media icons. The theme is designed using the bootstrap framework ensuring a clean code. This theme is compatible with major plugins like Woocommerce, Contact Form 7, Google translates, Mailchimp and many more. If you are looking to create a stunning website this is the best option for you, as it has the best features for a free template. If you want to create new pages you can easily do so using elementor or Gutenberg as our theme is compatible with them.
+Version: 0.1
+Requires PHP: 7.2
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fitmeal-dietitian
+Template: nutrition-diet
+Tags: wide-blocks, block-styles, two-columns, right-sidebar, left-sidebar, grid-layout, custom-colors, custom-background, custom-header, custom-menu, custom-logo, sticky-post, full-width-template, editor-style, featured-images, footer-widgets, threaded-comments, blog, food-and-drink, education
+
+Fitmeal Dietitian WordPress Theme, Copyright 2022 pewilliams
+Fitmeal Dietitian is distributed under the terms of the GNU GPL
+
+Fitmeal Dietitian WordPress Theme is child theme of Nutrition Diet WordPress Theme, Copyright 2022 pewilliams
+Nutrition Diet WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+
+h1, h2, h3, h4, h5, h6,.logo h1, .site-title, .site-title a, .logo h1 a,.top_bar span,#slider .carousel-caption h2,#slider .carousel-caption p,#Category-section h3 a,#sidebar h3,.prev.page-numbers:focus, .prev.page-numbers:hover, .next.page-numbers:focus, .next.page-numbers:hover,#sidebar .tagcloud a, .site-footer .tagcloud a,.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover,.product-details h4 a,.product-details span{
+    color: #282b2d;
+}
+.copyright{
+    background: #282b2d;
+}
+#sidebar h3,#sidebar select{
+    border-color: #282b2d;
+}
+
+a,#Category-section .postbox.smallpostimage:hover h3 a,.site-footer .widget-area a:hover,#sidebar caption,#sidebar th,#sidebar td,#sidebar select,.middle-sec-box h6{
+    color: #efb443;
+}
+.gb_nav_menu ul ul,.scrollup.is-active:hover, .scrollup.is-active:focus,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-info,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,p.donate_btn a:hover, .home-btn a:hover,a.more-link:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.menu_header,.box-content-cart a:hover,a.abt-button-1:hover,a.abt-button-2,.calling-box{
+    background: #efb443;
+}
+
+.gb_nav_menu ul ul a:hover,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #efb443 !important;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large), blockquote{
+    border-color: #efb443 !important;
+}
+
+a:hover, a:active{
+    color: #6d8c54;
+}
+a.more-link,button, input[type="button"], input[type="submit"],p.donate_btn a, .home-btn a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,nav.woocommerce-MyAccount-navigation ul li,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,a.abt-button-1,a.abt-button-2:hover{
+    background: #6d8c54;
+}
+
+p.donate_btn a:hover, .home-btn a:hover,a.more-link:hover,.site-footer .tagcloud a:hover,.gb_nav_menu li a,a.abt-button-1:hover,a.abt-button-2{
+    color: #fff;
+}
+
+.load :nth-child(2),.load :last-child {
+    background: #efb443;
+}
+.load :first-child,.load :nth-child(3) {
+    background: #6d8c54;
+}
+
+p.donate_btn a, .home-btn a,a.more-link,button, input[type="button"], input[type="submit"],.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,a.abt-button-1, a.abt-button-2{
+    border-radius: 5px;
+}
+
+/* Header*/
+
+.logo {
+    position: static;
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+.top_bar, .menu_header,a.abt-button-2:hover,a.abt-button-2{
+    border: none;
+}
+
+/* Product */
+
+#product {
+    background: #ebebeb;
+}
+.product-img {
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 14px 6px #cdcdcd;
+}
+.sale-tag {
+    position: absolute;
+    top: 15px;
+    background: #efb443;
+    color: #fff;
+    padding: 4px 5px;
+}
+.box-content-cart a {
+    background: #6d8c54;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#product h5 {
+    font-size: 18px;
+    color: #efb443;
+    font-weight: 600;
+}
+#product h3 {
+    font-size: 35px;
+}
+
+/* Default*/
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 425px){
+
+}
+@media screen and (max-width: 800px){
+    .toggle-menu button {
+        background: #282b2d;
+        color: #fff;
+        margin: 0 !important;
+    }
+    .toggle-menu.gb_menu{
+        text-align: right !important;
+    }
+    .gb_nav_menu ul ul{
+        background: transparent;
+    }
+    .side_gb_nav {
+        background-color: #282b2d;
+    }
+    .gb_nav_menu .current_page_item > a, .gb_nav_menu .current-menu-item > a, .gb_nav_menu .current_page_ancestor > a{
+        color: #efb443;
+    }
+}

@@ -1,0 +1,581 @@
+/* Underscores styles - plus
+--------------------------------------------- */
+/* RWD Responsive Web Design - https://www.w3schools.com/css/css3_mediaqueries.asp */
+/* https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+@media screen and (max-width: 992px) {
+
+	/* For tablets and mobile: */
+	/* :root{	--blog-post-number: 1 !important;	} */
+	#mySidebar {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/* For mobile: */
+	.navigation-main li,
+	.menu li {
+		display: block !important;
+	}
+}
+
+/* Reset nav width and search floating for mobile menu */
+@media (max-width: 979px) {
+	.navbar .nav .my-nav-menu-search {
+		float: left !important;
+	}
+
+	.navbar .nav {
+		width: auto !important;
+	}
+}
+
+#page {
+	width: var(--page-width);
+	margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+	/* For mobile: */
+	#page {
+		width: 100%;
+	}
+}
+
+.header-image {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Navigation plus - sticky
+---------------------------------------------  */
+#menu-prime a {
+    /* color: var(--menu-link-color); */
+    color: white;
+	background-color: transparent;
+}
+#menu-prime a:hover,
+#menu-prime li:hover>a,
+#menu-prime .current-menu-item>a,
+#menu-prime .current-menu-ancestor>a {
+  color: dodgerblue;
+  background-color: transparent;
+}
+#menu-secondary-menu a {
+    /* color: var(--menu-link-color); */
+    color: white;
+	background-color: transparent;
+}
+#menu-secondary-menu a:hover,
+#menu-secondary-menu li:hover>a,
+#menu-secondary-menu .current-menu-item>a,
+#menu-secondary-menu .current-menu-ancestor>a {
+  color: dodgerblue;
+  background-color: transparent;
+}
+.test {
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 0.8em;
+}
+
+.test a {
+	color: white;
+}
+
+.dropdown-menu a {
+	padding: 0 15px;
+}
+
+.main-navigation {
+	font-variant: small-caps;
+	text-align: center;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.site-main {
+	padding: 2em;
+}
+@media (max-width: 600px) {
+	/* For mobile: */
+	.site-main {
+		padding: 0;
+	}
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.site-branding {
+	display: flex;
+	float: left;
+}
+
+.fcol {
+	margin: 5px;
+	padding: 5px;
+}
+
+.site-title a {
+	color: white;
+}
+
+.site-description {
+	color: white;
+	font-size: 0.8rem;
+}
+
+.site-info {
+	color: white;
+}
+
+.site-info a {
+	color: #b6a8f7;
+}
+
+.custom-logo-link img {
+	height: var(--logo-height);
+	width: auto;
+}
+
+/* masonery   */
+.flexmasonry-item {
+   padding: 10px 15px;
+}
+
+.blog .post,
+.archive .post,
+.search .post {
+	margin: 0;
+	border: 2px solid #f9f9f9;
+}
+
+.padd-1 {
+	padding: 0 4%;
+}
+
+.blog .post img,
+.archive .post img,
+.search .post img {
+	box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.7);
+	border: 1px solid #999999;
+}
+
+ .blog .post-thumbnail img,
+ .archive .post-thumbnail img,
+ .search .post-thumbnail img {
+	 width: 100%;
+	 height: auto;
+ }
+/* .blog .post-thumbnail,
+.archive .post-thumbnail,
+.search .post-thumbnail {
+	position: relative;
+	width: 100%;
+	display: block;
+	padding-top: var(--thumb-height);
+}
+
+.blog .post-thumbnail img,
+.archive .post-thumbnail img,
+.search .post-thumbnail img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+ */
+ 
+.blog article,
+.archive article,
+.search article {
+	line-height: normal;
+}
+
+.blog .entry-header,
+.archive .entry-header,
+.search .entry-header {
+	box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.7);
+}
+
+.blog .entry-title a,
+.archive .entry-title a,
+.search .entry-title a {
+	color: inherit;
+}
+
+.blog .entry-title a:hover,
+.archive .entry-title a:hover,
+.search .entry-title a:hover {
+	color: #007acc;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.blog .entry-meta,
+.archive .entry-meta,
+.search .entry-meta {
+	font-size: 12px;
+}
+
+.blog .entry-content,
+.archive .entry-content,
+.search .entry-content {
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.blog .entry-content p,
+.archive .entry-content p,
+.search .entry-content p {
+	margin-bottom: 0;
+}
+
+.entry-content a {
+	text-decoration: underline;
+}
+
+/**
+* WordPress Number Pagination CSS Styles
+*/
+.pagin {
+	margin: 10px;
+}
+
+.page-navi.meta {
+	color: RGB(38, 166, 154);
+	font-size: 20px;
+	font-weight: normal;
+	border: solid 1px rgb(221, 221, 221);
+	padding: 10px 20px;
+	padding-left: 0;
+	border-radius: 3px;
+}
+
+.page-numbers {
+	/* border-right: solid 1px rgb(221, 221, 221); */
+	border: solid 1px rgb(221, 221, 221);
+	padding: 6px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
+	/* margin-left:-6px; */
+	font-size: 0.9rem;
+}
+
+.page-numbers.current {
+	/* padding: 10px 20px; */
+	/* background: RGB(38, 166, 154); */
+	background-color: #007acc;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+}
+
+.page-navi .prev {
+	float: left;
+	margin-right: 0;
+	margin-top: -10px;
+	border-right: solid 1px #eee;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 18px;
+	letter-spacing: 0;
+	font-weight: normal;
+}
+
+.page-navi .next {
+	float: right;
+	margin-top: -10px;
+	border-left: solid 1px #ddd;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+#mySidebar {
+	top: 0;
+	padding-top: 150px;
+	padding-right: 100px;
+	right: 0px;
+	z-index: 999;
+	width: 30%;
+}
+
+.widget {
+	padding: 20px;
+	font-size: 0.8rem;
+}
+
+.widget ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.widget .widget-title {
+	font-size: 0.9rem;
+	letter-spacing: 0.046875em;
+	text-transform: uppercase;
+}
+
+.tagcloud a {
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: 1;
+	margin: 0 0.1875em 0.4375em 0;
+	padding: 0.5625em 0.4375em 0.5em;
+	font-size: 0.9rem !important;
+}
+
+/* https://shibashake.com/wordpress-theme/wordpress-search-widget-how-to-style-it */
+.widget_search .search-submit {
+	border: none;
+	border-radius: 0;
+	position: absolute;
+	cursor: pointer;
+	padding: 4px 10px;
+	font-family: icomoon;
+	font-size: 23px;
+	background-color: white;
+}
+
+.widget ul li {
+	margin-bottom: 0 !important;
+}
+
+.widget img {
+	margin-bottom: 1em !important;
+}
+
+input[type="search"] {
+	border: none;
+	border-radius: 0;
+}
+
+.tzwb-tabbed-content .tzwb-tabcontent li.tzwb-has-thumbnail .wp-post-image {
+	max-width: 160px !important;
+	width: 160px;
+	height: 90px !important;
+}
+
+.select2-container {
+	color: black;
+	width: 250px !important;
+}
+
+.paypal-buttons {
+	width: 500px !important;
+}
+
+.navbar .nav .my-nav-menu-search {
+	float: right;
+}
+
+.navbar .nav {
+	width: 100%;
+}
+
+.my-nav-menu-search .search-form {
+	position: relative;
+	margin: 0;
+}
+
+/*Stop the display of the Search button*/
+.my-nav-menu-search .search-submit {
+	display: none;
+}
+
+/* The "Search for" text is needed for screen readers, but we move it off screen, so we won't see it */
+.my-nav-menu-search .search-form .screen-reader-text {
+	position: absolute;
+	left: -9999px;
+	overflow: hidden;
+}
+
+/* Style the search input textbox */
+.my-nav-menu-search .search-field {
+	background: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+	height: 26px;
+	margin: 2px 0 2px 0;
+	padding: 0 0 0 36px;
+	position: relative;
+	-webkit-transition: width 400ms ease;
+	-moz-transition: width 400ms ease;
+	-o-transition: width 400ms ease;
+	transition: width 400ms ease;
+	width: 0px;
+}
+
+/* Expand the search box when you click it */
+.my-nav-menu-search .search-field:active,
+.my-nav-menu-search .search-field:focus {
+	color: #5a5a5a;
+	/* change the colour above if you are working with a dark navbar background */
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: 0;
+	width: 170px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	margin: 0;
+}
+
+/* Add a magnifying glass background */
+.my-nav-menu-search .search-form:before {
+	font-family: icomoon;
+	content: "\e986";
+	position: absolute;
+	/* this is the key to put it visually inside the search field */
+	font-size: 22px;
+	font-weight: bold;
+	left: 5px;
+	/* tune this horizontal alignment inside the search field, as needed */
+}
+
+#header-image-div{
+	margin-top: 10px;
+}
+.slick-carousel {
+	height: 500px;
+	width: 100%;
+}
+.slick-carousel .slide{
+	width:100%;
+	padding: 0 5px;
+}
+.slick-carousel .slide img{
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+.slick-carousel article{
+	border: 1px solid #ccc;
+	padding: 3px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #ececec; */
+}
+.slick-carousel article .entry-content{
+	border-bottom: none;
+}
+
+.hero, .slick-dotted.slick-slider{
+	/* height: 60vh !important; */
+	margin-bottom: 0;
+}
+
+#random article {
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	padding: 0 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#random .entry-header {
+	box-shadow: none;
+}
+
+#random .entry-title {
+	font-size: 3rem;
+}
+
+.last-updated {
+	font-size: small;
+	text-transform: uppercase;
+	/* background-color: #fffdd4; */
+	margin: 0;
+}
+
+.navigation-main {
+	text-align: center;
+	text-transform: unset;
+	font-size: unset;
+
+}
+
+/* #header-image-div img{ */
+.header-image {
+	height: 500px;
+	object-fit: cover;
+	object-position: center center;
+}
+
+#open-sidebar:focus, #close-sidebar:focus{
+	background-color: transparent !important;
+	color: #fff !important;
+	outline: thin dotted;
+}
+
+/* slider1 */
+.mySlides {
+	display:none
+}
+.mySlides img {
+	 height: 300px;
+	 width: 100%;
+	 object-fit: cover;
+	}
+/* krugovi/w3-badge za tekući slide */
+.w3-left, .w3-right, .w3-badge {
+cursor:pointer
+}
+.w3-badge {
+height:13px;
+width:13px;
+padding:0
+}
+.mySlides article {
+width: 33.33%;
+margin: 0 auto;
+background-color: rgba(0, 0, 0, 0.2);
+color: white;
+padding: 0 20px;
+}
+@media (max-width: 600px) {
+	/* For mobile: */
+	.mySlides article {
+		width: 100%;
+	}
+}
+
+.mySlides .entry-header {
+box-shadow: none;
+}
+.mySlides .entry-title{
+text-align: center;
+}
+.mySlides .entry-title a{
+color: white;
+}
+/* .mySlides .entry-title a:hover{
+color: #191970;
+}
+ */

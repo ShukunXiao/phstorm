@@ -1,0 +1,83 @@
+/*
+Theme Name: Magma22
+Theme URI:
+Description: Magma22 is simple WordPress theme with grid-layout, extra menu, 3 post sliders and google typography, easy to customize with Customizer theme options. Donate and support theme: https://paypal.me/zoranstosic or, send your donation directly to my Paypal account: zstosic@gmail.com. If you need more information please contact me at Viber/Telegram: +381 637618511.
+Version: 1.0.1
+Author: zstosic
+Author URI: https://profiles.wordpress.org/zstosic/
+Template: gamayun
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, grid-layout, custom-colors, custom-header, theme-options
+Text Domain: magma22
+Requires at least: 4.7
+Tested up to: 5.8
+Requires PHP: 7.2
+*/
+
+.site-main {
+    width: 80%;
+    margin: 0 auto;
+}
+.blog .site-main.w3-theme-l4{
+    background-color: transparent !important;
+}
+
+#header-image-div {
+    margin-top: 0;
+}
+.header-image {
+    height: 250px;
+    margin-top: 80px;
+}
+.site-branding {
+    align-items: baseline; 
+    margin-left: 5px;  
+    flex-flow: column wrap;
+    max-height: 80px;
+    line-height: 36px;   
+}
+
+.main-navigation.w3-display-topright{
+    width: 100%;
+}.main-navigation.w3-display-topright, .site-branding.w3-display-topleft{
+    position: fixed;
+    z-index: 10;
+    /* top: 30px; */
+}
+#open-sidebar{
+    border-width: 0;
+    cursor: pointer;
+}
+
+.blog .entry-header, .archive .entry-header, .search .entry-header {
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.blog .grid .entry-title, .archive .grid .entry-title {
+    text-align: center;
+    /* padding: 20px 0; */
+}
+.blog .entry-header, .archive .entry-header, .search .entry-header {
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.blog .entry-title a, .archive .entry-title a, .search .entry-title a {
+    color: #007acc;
+}
+.blog .entry-title a:hover, .archive .entry-title a:hover, .search .entry-title a:hover {
+    color: #007acc;
+    background-color: #a0dcff;
+    text-decoration: none;
+}
+.page-content, .entry-content, .entry-summary {
+    margin: 10px 0;
+}
+.blog .entry-content, .archive .entry-content, .search .entry-content {
+    border-width: 0;
+}
+.grid .entry-meta {
+    font-size: 12px;
+    text-align: left;
+    font-variant: small-caps;
+}
